@@ -1,0 +1,98 @@
+"Information about the 96 cell lines from 91 donors used in the study. Columns left to right: ID mapping to a cell line from a unique biopsy; the biopsy donor; the cross-validation fold for disease prediction; ID for paired PD healthy control; PD status; donor sex; donor age; ancestry score from genotyping; a clinical measure of PD severity; biopsy collection year; biopsy site on body; disease duration (years), and self-reported PD-related medication (A:amantadine, C:carbidopa, E:entacapone, L:levodopa, P:pramipexole, Ra:rasagiline, Ro:ropinirole, Rot:rotigotine, S:selegiline, T: trihexyphenidyl); cell expansion in 6-well (""6w"") or from 12-well to 6-well format (""12w→6w""); date expanded cells were frozen; doubling time (days) during cell expansion. *: unconfirmed cell line, **: GBA mutation (see Methods). Colors within a column denote similar values.",,,,,,,,,,,,,,,
+Cell line ID,Donor ID,Cross-val fold,Pair ID,Disease state,Sex,Age,European ancestry,UPDRS score,Biopsy year,Biopsy location,Disease duration,Drugs,Thaw format,Thaw freeze date,Doubling time
+01 ,50121,1,0,Healthy,F,54,99%, ,2012,unspecified,,,6w,6/17/2019,3.32
+02 ,51255,1,0,LRRK2 PD,F,56,92%,71,2017,left upper thigh,4,"L,C",6w,6/17/2019,2.66
+03 ,51260,2,1,Healthy,F,64,98%, ,2017,left upper leg,,,12w→6w,8/9/2019,2.70
+04 ,51253,2,1,Sporadic PD,F,63,99%,23,2017,left upper arm,10,"L,Ra,Ro",6w,7/30/2019,3.41
+05 ,50114,4,2,Healthy,M,67,94%, ,2012,unspecified,,,6w,7/31/2019,2.77
+06 ,50463,4,2,Sporadic PD,M,69,92%,34,2013,unspecified,8,"Ra,L,C,E",6w,8/15/2019,3.39
+07 ,50752,4,3,Healthy,F,58,90%, ,2013,left upper arm,,,12w→6w,8/22/2019,5.36
+08 ,50437,4,3,Sporadic PD,F,59,90%,45,2013,left upper leg,1,P,6w,7/11/2019,3.80
+09 ,50665,1,4,Healthy,F,71,91%, ,2013,right lower leg,,,12w→6w,7/30/2019,3.24
+10 ,50373,1,4,Sporadic PD,F,69,100%,61,2012,right thigh,8,none,6w,7/5/2019,4.37
+11 ,51218,3,5,Healthy,F,60,100%, ,2016,left upper arm,,,6w,7/11/2019,2.47
+12 ,51193,3,5,Sporadic PD,F,60,91%,53,2015,left thigh,5,"L,C,E",6w,7/22/2019,2.49
+13 ,50584,4,6,Healthy,M,81,, ,2013,right lower cheek,,,6w,6/7/2019,3.11
+14 ,51259,4,6,Sporadic PD,M,76,95%,29,2017,left arm,1,none,6w,9/3/2019,3.87
+15 ,51005,4,7,Healthy,F,57,90%, ,2014,left upper arm,,,6w,7/5/2019,2.83
+16 ,51149,4,7,Sporadic PD,F,57,97%,26,2015,left upper arm,2,"Ra,L,C",6w,7/5/2019,2.50
+17 ,50183,3,8,Healthy,M,62,98%, ,2012,chest,,,6w,7/18/2019,6.19
+18 ,50951,3,8,Sporadic PD,M,62,98%,20,2014,left upper arm,7,"Ra,Ro,L,C,E",12w→6w,7/30/2019,3.30
+19 ,51107,0,9,Healthy,M,59,97%, ,2014,upper arm,,,6w,7/11/2019,2.53
+20 ,51099,0,9,Sporadic PD,M,61,100%,19,2014,upper left arm,2,L,12w→6w,7/22/2019,4.06
+21 ,51183,1,10,Healthy,M,66,89%, ,2015,left arm,,,6w,8/9/2019,2.12
+22 ,50480,1,10,Sporadic PD,M,66,99%,56,2013,left upper arm,8,"L,C",6w,7/31/2019,4.55
+23 ,50764,,11,Healthy,F,56,89%, ,2013,left upper arm,,,6w,6/7/2019,2.71
+24 ,51266,,11,GBA PD,F,54,96%,30,2017,unspecified,2,L,6w,6/7/2019,2.28
+25 ,50167,0,12,Healthy,M,62,98%, ,2012,unspecified,,,12w→6w,7/22/2019,4.64
+26 ,51156,0,12,Sporadic PD,M,68,100%,20,2015,left upper arm,0,none,6w,8/13/2019,2.41
+27 ,50956,,13,Healthy,M,47,, ,2014,left upper arm,,,6w,6/11/2019,6.64
+28 ,51249,,13,GBA PD,M,46,92%,20,2016,right upper arm,1,Ra,6w,6/11/2019,2.44
+29 ,50767,2,14,Healthy,F,71,88%, ,2013,left upper arm,,,6w,7/30/2019,2.71
+30 ,50406,2,14,Sporadic PD,F,68,90%,24,2012,right upper arm,6,"T,L,C",12w→6w,9/3/2019,5.24
+31 ,51105,2,15,Healthy,M,59,, ,2014,upper arm,,,6w,6/19/2019,2.28
+32 ,51142,2,15,Sporadic PD,M,59,90%,36,2015,right arm,unknown,"Ra,P",12w→6w,7/5/2019,3.07
+33 ,51140,0,16,Healthy,M,55,96%, ,2015,left upper arm,,,6w,6/13/2019,3.53
+34 ,51256,0,16,Sporadic PD,M,54,94%,31,2017,left inner arm,2,"Ra,Ro",6w,6/13/2019,6.57
+35 ,50939,1,17,Healthy,M,64,91%, ,2014,left upper arm,,,6w,7/22/2019,4.36
+36 ,50449,1,17,Sporadic PD,M,64,98%,44,2013,left upper arm,4,"L,S",12w→6w,7/30/2019,3.41
+37 ,50128,3,18,Healthy,M,57,97%, ,2012,unspecified,,,6w,7/11/2019,2.72
+38 ,50392,3,18,LRRK2 PD,M,59,93%,20,2012,right thigh,11,"L,P",6w,7/11/2019,3.58
+39 ,51239,0,19,Healthy,M,64,99%, ,2016,left upper inner arm,,,6w,7/31/2019,2.25
+40 ,51037,0,19,Sporadic PD,M,68,93%,34,2014,left upper arm,6,"Ra,L,Rot",12w→6w,8/26/2019,4.29
+41 ,50199,1,20,Healthy,M,81,99%, ,2012,right arm,,,6w,6/7/2019,3.03
+42 ,50590,1,20,Sporadic PD,M,76,92%,27,2013,left upper arm,11,Ra,6w,8/13/2019,3.30
+43 ,50112,0,21,Healthy,F,77,92%, ,2012,unspecified,,,12w→6w,7/5/2019,4.28
+44 ,51126,0,21,Sporadic PD,F,74,99%,35,2015,unspecified,10,"Ra,L,C,E",6w,6/17/2019,3.42
+45 ,50192,2,22,Healthy,M,77,97%, ,2012,nose,,,6w,6/25/2019,4.53
+46 ,51261,2,22,LRRK2 PD,M,74,92%,29,2017,right upper arm,2,S,12w→6w,8/22/2019,2.78
+47 ,51152,,23,Healthy,F,74,100%, ,2015,left upper arm,,,12w→6w,6/19/2019,2.94
+48*,10124*,,23,GBA PD*,F,74,94%, ,2011,right arm,unknown,unknown,6w,6/13/2019,6.04
+49 ,51030,2,24,Healthy,F,70,94%, ,2014,left arm,,,6w,7/18/2019,2.80
+50 ,51250,2,24,Sporadic PD,F,69,98%,21,2016,left upper arm,0,none,6w,7/18/2019,3.22
+51 ,51093,0,25,Healthy,F,73,99%, ,2015,left upper arm,,,12w→6w,7/11/2019,2.75
+52 ,50864,0,25,Sporadic PD,F,73,98%,34,2013,left upper arm,9,L,6w,6/19/2019,3.48
+53 ,50136,,26,Healthy,M,66,92%, ,2017,unspecified,,,6w,7/5/2019,2.25
+54 ,10198,,26,GBA PD,M,66,98%,38,2012,right upper inner arm,3,L,6w,7/5/2019,2.40
+55 ,51148,4,27,Healthy,M,61,90%, ,2015,left upper arm,,,6w,8/13/2019,2.68
+56 ,50640,4,27,Sporadic PD,M,66,93%,21,2013,upper arm,8,"S,L,C",6w,8/13/2019,2.90
+57*,50634*,4,28,Healthy*,F,72,92%, ,2013,left upper arm,,,6w,7/5/2019,2.61
+58 ,51243,4,28,Sporadic PD,F,72,90%,47,2016,right thigh,1,Ra,12w→6w,8/22/2019,2.66
+59 ,51194,3,29,Healthy,M,80,99%, ,2015,left arm,,,6w,6/11/2019,3.75
+60 ,51268,3,29,Sporadic PD,M,79,92%,44,2017,unspecified,9,"L,C,S",6w,6/11/2019,2.70
+61 ,51123,1,30,Healthy,F,54,92%, ,2015,left upper arm,,,6w,6/25/2019,3.21
+62 ,50483,1,30,Sporadic PD,F,56,91%,42,2013,left upper leg,8,"Ro,S",6w,6/25/2019,4.79
+63 ,51004,3,31,Healthy,M,54,98%, ,2014,left upper arm,,,12w→6w,6/25/2019,3.09
+64 ,50963,3,31,Sporadic PD,M,54,99%,24,2014,left upper arm,1,"P,Ra",6w,6/7/2019,3.67
+65 ,10130,4,32,Healthy,M,52,, ,2011,left inner arm,,,6w,6/11/2019,2.52
+66 ,50674,4,32,LRRK2 PD,M,51,91%,12,2013,right upper arm,0,Ra,6w,6/11/2019,4.23
+67 ,50598,2,33,Healthy,M,58,91%, ,2013,left forearm,,,6w,7/30/2019,2.57
+68 ,50610,2,33,Sporadic PD,M,59,97%,28,2013,left upper arm,6,"S,L,C",6w,6/25/2019,2.88
+69 ,51162,1,34,Healthy,M,47,98%, ,2015,left arm,,,6w,8/13/2019,2.01
+70 ,50492,1,34,LRRK2 PD,M,45,91%, ,2013,left upper arm,3,"A,S",12w→6w,8/22/2019,2.90
+71 ,51235,0,35,Healthy,M,68,98%, ,2016,left arm,,,6w,8/9/2019,2.48
+72 ,51212,0,35,Sporadic PD,M,70,98%,28,2015,left arm,6,"A,Ra,L,Ro",6w,8/15/2019,3.08
+73 ,50191,,36,Healthy,M,61,92%, ,2012,right cheek,,,6w,7/22/2019,6.10
+74 ,50660,,36,GBA PD,M,65,91%, ,2013,left upper arm,10,"Ra,L,C,E",12w→6w,7/30/2019,5.78
+75 ,50105,,37,Healthy,M,76,90%, ,2012,unspecified,,,12w→6w,7/22/2019,4.07
+76 ,51221,,37,GBA PD,M,74,93%,22,2016,left upper arm,5,"Ra,L,C",6w,6/25/2019,2.63
+77 ,51274,,38,Healthy**,M,64,, ,2018,left upper arm,,,6w,8/13/2019,2.82
+78 ,51021,,38,GBA PD,M,65,93%, ,2014,left upper arm,3,"S,L,C",6w,8/13/2019,2.86
+79 ,50176,,39,Healthy,M,58,, ,2012,chin,,,6w,6/19/2019,3.16
+80 ,50880,,39,GBA PD,M,59,93%,18,2013,upper arm,0,none,6w,6/19/2019,3.50
+81 ,50659,0,40,Healthy,F,64,91%, ,2013,left upper arm,,,6w,7/31/2019,2.58
+82 ,51010,0,40,LRRK2 PD,F,63,94%,18,2014,left upper arm,3,"A,Ra,L,C",12w→6w,8/26/2019,3.91
+83 ,50617,4,41,Healthy,M,53,, ,2013,right upper leg,,,6w,6/13/2019,2.79
+84 ,51176,4,41,Sporadic PD,M,53,98%,31,2015,left arm,0,none,6w,6/13/2019,2.71
+85 ,51139,3,42,Healthy,F,52,99%, ,2015,left upper arm,,,6w,8/15/2019,2.38
+86 ,51187,3,42,Sporadic PD,F,66,98%,16,2015,left upper arm,1,L,6w,8/26/2019,2.52
+87 ,50758,3,43,Healthy,F,78,91%, ,2013,left upper arm,,,6w,6/13/2019,4.02
+88 ,51200,3,43,Sporadic PD,F,80,90%,79,2015,left arm,2,L,6w,6/11/2019,4.54
+89 ,50174,2,44,Healthy,M,56,98%, ,2012,forehead,,,6w,6/17/2019,2.55
+90 ,50421,2,44,Sporadic PD,M,55,99%,26,2012,left upper arm,4,"A,S,L,C",6w,6/17/2019,4.93
+91 ,50437,,,Sporadic PD,F,64,90%,45,2019,left upper arm,6,"L,C",6w,7/11/2019,2.53
+92 ,51239,,,Healthy,M,67,99%, ,2019,right arm,,,6w,7/31/2019,2.33
+93 ,51093,,,Healthy,F,77,99%, ,2019,left arm,,,6w,6/19/2019,3.08
+94 ,51148,,,Healthy,M,65,90%, ,2019,upper arm,,,6w,8/13/2019,2.21
+95 ,50492,,,LRRK2 PD,M,51,91%, ,2019,left upper arm,9,"A,L,S",6w,7/18/2019,3.55
+96 ,50626,,,Sporadic PD,M,70,97%,43,2013,unspecified,5,"Ra,Ro,L,C",6w,9/3/2019,2.60
